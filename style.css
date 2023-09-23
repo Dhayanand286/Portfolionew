@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+
+}
+.logo{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    bottom: 40px;
+    margin-left: 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between ;
+    padding-right: 100px;
+}
+.header ul li{
+    display: inline-block;
+    padding: 20px 20px;
+    list-style-type: none;
+
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+}
+.home{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.prog{
+    height: 350px;
+    width: 350px;
+    border-radius: 30%;
+}
+span{
+    font-size: 50px;
+}
+#home{
+    height: 100vh;
+}
+#about{
+    height: 100vh;
+}
+#skills{
+    height: 100vh;
+}
+#projects{
+    height: 100vh;
+}
+#contact{
+    height: 100vh;
+}
+.skillbox img{
+    height: 300px;
+    width: 300px;
+
+}
+.skillbox{
+    margin-top: 100px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-auto-flow: column;
+    
+}
+.skillbox div h3{
+    text-align: center;
+}
+#skills h1{
+    text-align: center;
+    font-size: 40px;
+}
+#about h1{
+    text-align: center;
+    font-size: 40px;
+}
+#about p{
+    width: 50%;
+    font-size: 25px;
+}
+.abt{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+
+}
+.profile{
+    border-radius: 50%;
+}
+.pro{
+    display: grid;
+    justify-content: space-evenly;
+}
+.pro img{
+    margin-top: 150px;
+    height: 200px;
+    width: 200px;
+}
+.pro h3{
+    text-align: center;
+    margin-top: 10px;
+}
+#projects h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.contact img{
+    height: 50px;
+    width: 50px;
+}
+.contact{
+    margin-top: 150px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+   
+
+
+}
+.contact div{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+}
+#contact h1{
+    text-align: center;
+    font-size: 40px;
+}
+.contact p{
+    font-size: 25px;
+}
